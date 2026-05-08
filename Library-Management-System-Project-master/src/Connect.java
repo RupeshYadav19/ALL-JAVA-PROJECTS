@@ -12,7 +12,7 @@ public class Connect {
         try {
             // Loading the MySQL JDBC Driver explicitly
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "Rupesh@#202007");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "type your password here");
         } catch (ClassNotFoundException ex) {
             System.err.println("MySQL Driver not found! Please add mysql-connector-j-x.x.x.jar to your classpath.");
             Logger.getLogger(Connect.class.getName()).log(Level.SEVERE, "Driver not found", ex);

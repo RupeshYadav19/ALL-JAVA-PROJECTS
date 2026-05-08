@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseManager {
     private static final String URL = "jdbc:mysql://localhost:3306/journal_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "Rupesh@#202007"; // Default password, user might need to change
+    private static final String PASSWORD = "type your password here"; // Default password, user might need to change
 
     public static Connection getConnection() throws SQLException {
         try {

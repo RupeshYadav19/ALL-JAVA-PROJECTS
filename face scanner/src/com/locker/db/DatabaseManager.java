@@ -7,7 +7,7 @@ import java.util.List;
 public class DatabaseManager {
     private static final String URL = "jdbc:mysql://localhost:3306/face_locker";
     private static final String USER = "root";
-    private static final String PASSWORD = "Rupesh@#202007"; // User might need to change this
+    private static final String PASSWORD = "type your password here"; // User might need to change this
 
     static {
         try {

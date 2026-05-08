@@ -9,7 +9,7 @@ public class DBConnection {
 
     private static final String URL      = "jdbc:mysql://localhost:3306/academic_system?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER     = "root";
-    private static final String PASSWORD = "Rupesh@#202007";   // <-- Change to your MySQL root password if needed
+    private static final String PASSWORD = "type your password here";   // <-- Change to your MySQL root password if needed
 
     private static Connection connection = null;
 

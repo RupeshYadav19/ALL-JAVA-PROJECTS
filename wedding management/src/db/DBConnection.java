@@ -11,7 +11,7 @@ public class DBConnection {
     private static Connection connection = null;
     private static final String URL = "jdbc:mysql://localhost:3306/wedding_planner_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
-    private static final String PASS = "Rupesh@#202007"; // Change to your MySQL password
+    private static final String PASS = "type your password here"; // Change to your MySQL password
 
     private DBConnection() {}
 
